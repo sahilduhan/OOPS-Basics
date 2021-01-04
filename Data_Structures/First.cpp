@@ -1,3 +1,6 @@
+
+//linked list 
+
 #include <bits/stdc++.h>
 using namespace std;
 struct node
@@ -8,7 +11,7 @@ struct node
 struct node *head;
 void insert(int x)
 {
-    
+
 }
 void print(int x)
 {
