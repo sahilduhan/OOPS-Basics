@@ -12,6 +12,13 @@ public:
     Human(string name_val, int xp_val);
     Human(string name_val, int xp_val, int age_val);
 };
+//a better way of writing a constructor
+
+Human::Human()
+    : name("none"), age{10}, xp{50}
+{
+    //empty body \-can be used when varaible are introduced
+}
 
 Human::Human()
 {
@@ -23,10 +30,8 @@ Human::Human()
 //a better way to write an constructor
 
 Human::Human(string name_val, int age_val, int xp_val)
+    : name(name_val), age(age_val), xp(xp_val)
 {
-    age = age_val;
-    name = name_val;
-    xp = xp_val;
 }
 int main()
 {
