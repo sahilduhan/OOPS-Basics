@@ -53,6 +53,10 @@ public:
     {
         cout << " the derived copy constructor" << endl;
     }
+    ~Derived()
+    {
+        cout << " derived destructor is called" << endl;
+    }
 };
 int main()
 {
