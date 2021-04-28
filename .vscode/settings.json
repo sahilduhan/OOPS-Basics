@@ -3,6 +3,7 @@
         "array": "cpp",
         "regex": "cpp",
         "type_traits": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "ratio": "cpp"
     }
 }
